@@ -1,0 +1,9 @@
+---
+- name: Install Message Queue
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop:
+    - rabbitmq-server
+  become: true
+  become_method: sudo  

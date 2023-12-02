@@ -1,0 +1,5 @@
+[controller]
+controller-01 ansible_host=127.0.1.1
+
+[compute]
+compute-01 ansible_host=127.0.1.1
